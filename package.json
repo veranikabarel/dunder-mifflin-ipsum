@@ -3,16 +3,23 @@
   "version": "1.0.0",
   "description": "Package for generating placeholder text for developers projects in the 'The Office' style",
   "main": "index.js",
-  "license": "MIT", 
+  "license": "MIT",
   "scripts": {
-
-  }, 
+    "build" : "tsc"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/veranikabarel/dunder-mifflin-ipsum"
-  }, 
-  "keywords": ["dunder miffllin", "the office", "lorem ipsum generator"],
+  },
+  "keywords": [
+    "dunder miffllin",
+    "the office",
+    "lorem ipsum generator"
+  ],
   "author": "Veranika Kasparevych",
   "bugs": {},
-  "homepage": "https://github.com/veranikabarel/dunder-mifflin-ipsum"
+  "homepage": "https://github.com/veranikabarel/dunder-mifflin-ipsum",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
 }
