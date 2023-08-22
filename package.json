@@ -4,8 +4,11 @@
   "description": "Package for generating placeholder text for developers projects in the 'The Office' style",
   "main": "index.js",
   "license": "MIT",
+  "files": ["lib/**/*"],
   "scripts": {
-    "build" : "tsc"
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json"
   },
   "repository": {
     "type": "git",
@@ -20,6 +23,10 @@
   "bugs": {},
   "homepage": "https://github.com/veranikabarel/dunder-mifflin-ipsum",
   "devDependencies": {
+    "eslint-plugin-sonarjs": "^0.20.0",
+    "prettier": "^3.0.2",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
     "typescript": "^5.1.6"
   }
 }
