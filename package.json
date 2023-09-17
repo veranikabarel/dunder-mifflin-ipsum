@@ -1,6 +1,6 @@
 {
   "name": "dunder-mifflin-ipsum",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Package for generating placeholder text for developers projects in the 'The Office' style",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
